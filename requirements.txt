@@ -1,6 +1,1 @@
-streamlit
-pickle
-PyPDF2 
-streamlit_extras
-langchain
-import os
+

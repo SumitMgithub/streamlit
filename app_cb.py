@@ -12,9 +12,11 @@ from dotenv.main import load_dotenv
 
 load_dotenv()
 
-API_KEY= os.getenv("OPENAI_API_KEY")
+os.environ.get("OPENAI_API_KEY")
 
-# print(API_KEY)
+# OPENAI_API_KEY= os.getenv("OPENAI_API_KEY")
+
+# print(OPENAI_API_KEY)
 
 # Sidebar contents
 with st.sidebar:

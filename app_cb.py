@@ -14,10 +14,6 @@ load_dotenv()
 import os
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-# os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
-# OPENAI_API_KEY = st.secrets['openai']["OPENAI_API_KEY"]
-# print(OPENAI_API_KEY)
-
 # Sidebar contents
 with st.sidebar:
     st.title('🤗💬 LLM Chat App')
@@ -31,9 +27,6 @@ with st.sidebar:
     ''')
     add_vertical_space(5)
     st.write('Made by Sumit Malviya')
-
-
-
 
 
 def main():

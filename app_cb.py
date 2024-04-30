@@ -75,7 +75,7 @@ def main():
             # st.write(docs)
 
             llm = OpenAI()
-            chain = load_qa_chain(llm=llm, chain_type="stuff", return_source_documents=True )
+            chain = load_qa_chain(llm=llm, chain_type="stuff")
             response = chain.run(input_documents=docs, question=query)
             st.write(response)
 
